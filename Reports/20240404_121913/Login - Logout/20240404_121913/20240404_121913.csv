@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login - Logout,Chrome 123.0.6312.86,,,04-04-2024 12:19:23,04-04-2024 12:19:39,16.009s,PASSED
+,,,,,,,
+Test Cases/Login - Correct,Chrome 123.0.6312.86,,,04-04-2024 12:19:23,04-04-2024 12:19:37,14.112s,PASSED
+"openBrowser("""")",Chrome 123.0.6312.86,,,04-04-2024 12:19:23,04-04-2024 12:19:27,3.910s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 123.0.6312.86,,,04-04-2024 12:19:27,04-04-2024 12:19:30,3.190s,PASSED
+"click(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise/a_Signup  Login""))",Chrome 123.0.6312.86,,,04-04-2024 12:19:30,04-04-2024 12:19:32,1.742s,PASSED
+"setText(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise - Signup  Login/input_Login to your account_email""), ""filbert.bojinov@katalon.com"")",Chrome 123.0.6312.86,,,04-04-2024 12:19:32,04-04-2024 12:19:33,0.645s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""tzH6RvlfSTg="")",Chrome 123.0.6312.86,,,04-04-2024 12:19:33,04-04-2024 12:19:33,0.301s,PASSED
+"click(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 123.0.6312.86,,,04-04-2024 12:19:33,04-04-2024 12:19:37,4.027s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 123.0.6312.86,,,04-04-2024 12:19:37,04-04-2024 12:19:39,1.620s,PASSED
+"click(findTestObject(""Object Repository/Register/Page_Automation Exercise/a_Logout""))",Chrome 123.0.6312.86,,,04-04-2024 12:19:37,04-04-2024 12:19:39,1.428s,PASSED
