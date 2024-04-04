@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Normal,,,,04-04-2024 11:48:48,04-04-2024 11:48:55,7.231s,FAILED
+,,,,,,,
+Test Cases/Register - With Existing Email,,,,04-04-2024 11:48:51,04-04-2024 11:48:51,0.109s,FAILED
+"openBrowser("""")",,,,04-04-2024 11:48:51,04-04-2024 11:48:51,0.071s,FAILED
+,,,,,,,
+Test Cases/Login - Incorrect,,,,04-04-2024 11:48:52,04-04-2024 11:48:52,0.294s,FAILED
+"openBrowser("""")",,,,04-04-2024 11:48:52,04-04-2024 11:48:52,0.256s,FAILED
+,,,,,,,
+Test Cases/Login - Correct,,,,04-04-2024 11:48:53,04-04-2024 11:48:53,0.170s,FAILED
+"openBrowser("""")",,,,04-04-2024 11:48:53,04-04-2024 11:48:53,0.118s,FAILED
+,,,,,,,
+Test Cases/Verify Subscription in home page,,,,04-04-2024 11:48:54,04-04-2024 11:48:54,0.114s,FAILED
+"setText(findTestObject(""Object Repository/Verify Subscription in home page/Page_Automation Exercise/input_Subscription_susbscribe_email""), ""FILBERT.BOJINOV@KATALON.COM"")",,,,04-04-2024 11:48:54,04-04-2024 11:48:54,0.086s,FAILED
+,,,,,,,
+Test Cases/Add review on product,,,,04-04-2024 11:48:54,04-04-2024 11:48:55,0.187s,FAILED
+"click(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise/a_Products""))",,,,04-04-2024 11:48:54,04-04-2024 11:48:55,0.155s,FAILED
+,,,,,,,
+Test Cases/Logout,,,,04-04-2024 11:48:55,04-04-2024 11:48:55,0.139s,FAILED
+"click(findTestObject(""Object Repository/Register/Page_Automation Exercise/a_Logout""))",,,,04-04-2024 11:48:55,04-04-2024 11:48:55,0.110s,FAILED
