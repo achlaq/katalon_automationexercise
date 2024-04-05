@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Normal,Chrome 123.0.6312.86,,,04-04-2024 16:07:13,04-04-2024 16:07:48,34.834s,PASSED
+,,,,,,,
+Test Cases/Register - With Existing Email,Chrome 123.0.6312.86,,,04-04-2024 16:07:13,04-04-2024 16:07:23,9.170s,PASSED
+"openBrowser("""")",Chrome 123.0.6312.86,,,04-04-2024 16:07:14,04-04-2024 16:07:16,1.993s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:16,04-04-2024 16:07:19,3.068s,PASSED
+"click(findTestObject(""Object Repository/Register - With Existing Email/Page_Automation Exercise/a_Signup  Login""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:19,04-04-2024 16:07:21,1.936s,PASSED
+"setText(findTestObject(""Object Repository/Register - With Existing Email/Page_Automation Exercise - Signup  Login/input_New User Signup_name""), ""Filbert Bojinov"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:21,04-04-2024 16:07:21,0.522s,PASSED
+"setText(findTestObject(""Object Repository/Register - With Existing Email/Page_Automation Exercise - Signup  Login/input_New User Signup_email""), ""filbert.bojinov@katalon.com"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:21,04-04-2024 16:07:21,0.266s,PASSED
+"click(findTestObject(""Object Repository/Register - With Existing Email/Page_Automation Exercise - Signup  Login/button_Signup""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:21,04-04-2024 16:07:22,0.934s,PASSED
+"verifyElementVisible(findTestObject(""Register - With Existing Email/Page_Automation Exercise - Signup  Login/p_Email Address already exist""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:22,04-04-2024 16:07:23,0.173s,PASSED
+,,,,,,,
+Test Cases/Login - Incorrect,Chrome 123.0.6312.86,,,04-04-2024 16:07:23,04-04-2024 16:07:31,8.447s,PASSED
+"openBrowser("""")",Chrome 123.0.6312.86,,,04-04-2024 16:07:23,04-04-2024 16:07:23,0.778s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:23,04-04-2024 16:07:28,4.398s,PASSED
+"click(findTestObject(""Object Repository/Login - Incorrect/Page_Automation Exercise/a_Signup  Login""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:28,04-04-2024 16:07:29,1.461s,PASSED
+"setText(findTestObject(""Object Repository/Login - Incorrect/Page_Automation Exercise - Signup  Login/input_Login to your account_email""), ""halohbrty@katalon.com"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:29,04-04-2024 16:07:30,0.435s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login - Incorrect/Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""tzH6RvlfSTg="")",Chrome 123.0.6312.86,,,04-04-2024 16:07:30,04-04-2024 16:07:30,0.308s,PASSED
+"click(findTestObject(""Object Repository/Login - Incorrect/Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:30,04-04-2024 16:07:31,0.880s,PASSED
+"verifyElementVisible(findTestObject(""Login - Incorrect/Page_Automation Exercise - Signup  Login/p_Your email or password is incorrect""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:31,04-04-2024 16:07:31,0.107s,PASSED
+,,,,,,,
+Test Cases/Login - Correct,Chrome 123.0.6312.86,,,04-04-2024 16:07:31,04-04-2024 16:07:41,10.410s,PASSED
+"openBrowser("""")",Chrome 123.0.6312.86,,,04-04-2024 16:07:31,04-04-2024 16:07:32,0.948s,PASSED
+"navigateToUrl(""https://automationexercise.com/"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:32,04-04-2024 16:07:35,3.119s,PASSED
+"click(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise/a_Signup  Login""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:35,04-04-2024 16:07:37,1.474s,PASSED
+"setText(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise - Signup  Login/input_Login to your account_email""), ""filbert.bojinov@katalon.com"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:37,04-04-2024 16:07:37,0.489s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise - Signup  Login/input_Login to your account_password""), ""tzH6RvlfSTg="")",Chrome 123.0.6312.86,,,04-04-2024 16:07:37,04-04-2024 16:07:37,0.258s,PASSED
+"click(findTestObject(""Object Repository/Login - Correct/Page_Automation Exercise - Signup  Login/button_Login""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:37,04-04-2024 16:07:41,3.983s,PASSED
+,,,,,,,
+Test Cases/Verify Subscription in home page,Chrome 123.0.6312.86,,,04-04-2024 16:07:41,04-04-2024 16:07:42,0.711s,PASSED
+"setText(findTestObject(""Object Repository/Verify Subscription in home page/Page_Automation Exercise/input_Subscription_susbscribe_email""), ""FILBERT.BOJINOV@KATALON.COM"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:42,04-04-2024 16:07:42,0.359s,PASSED
+"click(findTestObject(""Object Repository/Verify Subscription in home page/Page_Automation Exercise/button_Subscription_subscribe""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:42,04-04-2024 16:07:42,0.151s,PASSED
+"verifyElementVisible(findTestObject(""Verify Subscription in home page/Page_Automation Exercise/div_You have been successfully subscribed""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:42,04-04-2024 16:07:42,0.113s,PASSED
+,,,,,,,
+Test Cases/Add review on product,Chrome 123.0.6312.86,,,04-04-2024 16:07:42,04-04-2024 16:07:47,4.465s,PASSED
+"click(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise/a_Products""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:42,04-04-2024 16:07:44,1.971s,PASSED
+"click(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise - All Products/a_View Product""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:44,04-04-2024 16:07:46,1.397s,PASSED
+"setText(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise - Product Details/input_Write Your Review_name""), ""Ola"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:46,04-04-2024 16:07:46,0.311s,PASSED
+"setText(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise - Product Details/input_Write Your Review_email""), ""ola@katalon.com"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:46,04-04-2024 16:07:46,0.246s,PASSED
+"setText(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise - Product Details/textarea_Write Your Review_review""), ""testo"")",Chrome 123.0.6312.86,,,04-04-2024 16:07:46,04-04-2024 16:07:46,0.215s,PASSED
+"click(findTestObject(""Object Repository/Add review on product/Page_Automation Exercise - Product Details/button_Submit""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:46,04-04-2024 16:07:47,0.137s,PASSED
+"verifyElementVisible(findTestObject(""Add review on product/Page_Automation Exercise - Product Details/span_Thank you for your review""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:47,04-04-2024 16:07:47,0.093s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 123.0.6312.86,,,04-04-2024 16:07:47,04-04-2024 16:07:48,1.374s,PASSED
+"click(findTestObject(""Object Repository/Register/Page_Automation Exercise/a_Logout""))",Chrome 123.0.6312.86,,,04-04-2024 16:07:47,04-04-2024 16:07:48,1.312s,PASSED
